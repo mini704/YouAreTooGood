@@ -82,9 +82,18 @@ section {
     box-shadow: none;
     transition: box-shadow 0.3s ease-in-out;
 }
-
-.glow-button:hover {
+@media (min-width:500px) {
+    .glow-button:hover {
     box-shadow: 0 0 10px #be00fe, 0 0 20px #be00fe, 0 0 30px #be00fe, 0 0 40px #be00fe;
+}
+.glow-button:active{
+    background-color: #9a035b;
+} 
+}
+@media (max-width:499px) {
+.glow-button:active{
+    background-color: #9a035b;
+} 
 }
 #ourStory .timeline .event {
     margin: 20px;
@@ -196,6 +205,15 @@ body {
   .loveLetter{
     color: #000000;
   }
+  .foot-panel1{
+    background-color: #503c67;
+    color: white;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+}
 </style>
 <body>
     <!-- Landing Page -->
@@ -205,7 +223,7 @@ body {
             Your browser does not support the video tag.
         </video>
         <section id="landing"><br><br>
-            <h1 class="heading"  >Happy Love Anniversary</h1><h1 id="name" style=" font-size: 60px;">SUJATA</h1>
+            <h1 class="heading"  style=" font-size: 50px;">Happy Love Anniversary</h1><h1 id="name" style=" font-size: 50px;">SUJATA</h1>
             <br><br><p>You are my everything. Thank you for being by my side...</p><br>
             <button class="glow-button" onclick="scrollToSection('ourStory')" style="font-family: serif;">Explore Our Journey</button>
         </section>
@@ -354,7 +372,7 @@ body {
         Please read carefully and try to understand the feelings...
         <div class="letter">
             <p class="loveLetter">To My Dearest Sujata,</p>
-            <p class="loveLetter">On this special day, our love anniversary, I find myself looking back on the beautiful journey we've shared together. From the very beginning, you brought light into my life in ways I never imagined possible. Every moment with you, whether near or far, has been a chapter of joy, learning, and growth.</p><p class="loveLetter">I still remember how our love blossomed despite the distance that separated us. Your promise to love me always and never betray my trust meant the world to me. You became my Sonu, and I became your Sonai, a bond that felt unbreakable, despite the miles between us.</p> <p class="loveLetter">But like any journey, ours had its bumps. I made mistakes, doubting you when I shouldn't have, and pressuring you in ways that hurt you. For that, I am truly sorry. I now realize how my actions may have impacted you, and I deeply regret any pain I caused. Yet, through it all, you stood by me, showing patience and understanding, even when it wasn't easy.</p> <p class="loveLetter">What I admire most about you, Sujata, is your strength and determination. Your dedication to your dreams and your decision to focus on your studies inspires me. I know how important your goals are to you, and I respect and support every decision you make.</p> <p class="loveLetter">One of the most beautiful parts of our relationship is how we've taught each other. And now, I will teach you web development, any other skills and you, in turn, can teach me English. This exchange of knowledge is not just about learning new skills; it's about deepening our bond, understanding each other better, and growing together.</p><p class="loveLetter">Last year, I forgot about that special day because I was under so much pressure about my college admission. I was torn between whether to drop a year or not, and my father was pressuring me to get admission that year. The admission process was incredibly stressful—I applied to this college without knowing if I would even get in or not. The uncertainty weighed heavily on me, and it made that time even more difficult. Although I’m sorry for that, I should not have forgotten about that special day. It was important, and I regret letting the pressure make me lose sight of what truly matters—us. Even, I didn’t have any friends who got admission with me that year or through this examination, so I felt even more alone during that time. I know you didn’t expect that from me, but unfortunately, it happened. I think you understand the situation and why it was such a difficult time for me. But now, jo bit gya hai, use jane do, and let’s start a new life together, leaving the past behind.</p><p class="loveLetter">Even now, as we navigate the complexities of life, I find myself waiting for you, not out of obligation, but out of a deep, abiding love and respect for the incredible person you are. I remember waiting for you when you were preparing for your exams—I missed you so badly during that time. But what hurt the most was feeling like you treated me as if I didn’t matter to you. It made me feel unworthy of your love, and that pain lingers even now. But please don’t mind it—I will try to move past those feelings because my love for you is stronger than any hurt. I felt jealousy in you at times, but now I realize I have no right to say anything about it. I think, everyone feels a bit jealous when their girlfriend talks to a guy friend, but personally i don't like thet a guy friend talk to you without any reason,I dont't know why!.But I promise you not to behave like that anymore if it makes you uncomfortable. Now, My focus is on supporting you and cherishing our relationship. But if I could wish for anything, it would be to have the Sujata from one year ago back—the one I fell in love with and who made me feel like the luckiest person in the world. If we both put in the same effort from both sides, I believe our relationship can be successful and even stronger than before. Please don’t leave me because I really want you in my life. I don't even need any other friends if you talk with me. Just talking to you releases all my pressure and makes everything feel right again. I can’t even fully describe the feelings I get when I talk with you—it's something beyond words, something that only my heart understands.</p> <p class="loveLetter">If there's one thing I've learned, it's that love isn't just about being together physically; it's about growing together, learning from each other, and supporting each other’s journeys.</p> <p class="loveLetter">On this anniversary, I want to renew my promise to you. I promise to continue growing, to be more understanding, and to love you with all my heart. Whether our paths converge again soon or take longer to meet, know that I am here, with an open heart, ready to listen, ready to support, and always ready to love you.  But now I've realized something—I don't know how it's happening, but I'm finding it difficult to talk with you openly. I'm scared that if I say something wrong, it might hurt you, and we could end up breaking up.</p> <p class="loveLetter">You can share everything with me from A to Z if you feel comfortable, whether it's about someone saying something, someone behaving badly, or any problem you're facing in life. And likewise, I'll always share mine with you because I want us to face everything together.</p><p class="loveLetter">You are my Sonu, the one who completes me, and no matter what the future holds, you will always have a special place in my heart.  I know that I can do anything if you are by my side, giving me strength and support. Here's to the love we've shared, the lessons we've learned, and the beautiful journey ahead. And lastly, I want to tell you, I really really really Love You❤️ and also "You are too good😁"</p>
+            <p class="loveLetter">On this special day, our love anniversary, I find myself looking back on the beautiful journey we've shared together. From the very beginning, you brought light into my life in ways I never imagined possible. Every moment with you, whether near or far, has been a chapter of joy, learning, and growth.</p><p class="loveLetter">I still remember how our love blossomed despite the distance that separated us. Your promise to love me always and never betray my trust meant the world to me. You became my Sonu, and I became your Sonai, a bond that felt unbreakable, despite the miles between us.</p> <p class="loveLetter">But like any journey, ours had its bumps. I made mistakes, doubting you when I shouldn't have, and pressuring you in ways that hurt you. For that, I am truly sorry. I now realize how my actions may have impacted you, and I deeply regret any pain I caused. Yet, through it all, you stood by me, showing patience and understanding, even when it wasn't easy.</p> <p class="loveLetter">What I admire most about you, Sujata, is your strength and determination. Your dedication to your dreams and your decision to focus on your studies inspires me. I know how important your goals are to you, and I respect and support every decision you make.</p> <p class="loveLetter">One of the most beautiful parts of our relationship is how we've taught each other. And now, I will teach you web development, any other skills and you, in turn, can teach me English. This exchange of knowledge is not just about learning new skills; it's about deepening our bond, understanding each other better, and growing together.</p><p class="loveLetter">Even now, as we navigate the complexities of life, I find myself waiting for you, not out of obligation, but out of a deep, abiding love and respect for the incredible person you are. I remember waiting for you when you were preparing for your exams—I missed you so badly during that time. But what hurt the most was feeling like you treated me as if I didn’t matter to you. It made me feel unworthy of your love, and that pain lingers even now. But please don’t mind it—I will try to move past those feelings because my love for you is stronger than any hurt. I felt jealousy in you at times, but now I realize I have no right to say anything about it. I think, everyone feels a bit jealous when their girlfriend talks to a guy friend, but personally i don't like thet a guy friend talk to you without any reason,I dont't know why! It's hurt me the most. There are nothing can hurt me from you than this. Now, My focus is on supporting you and cherishing our relationship. But if I could wish for anything, it would be to have the Sujata from one year ago back—the one I fell in love with and who made me feel like the luckiest person in the world. If we both put in the same effort from both sides, I believe our relationship can be successful and even stronger than before. Please don’t leave me because I really want you in my life. I don't even need any other friends if you talk with me. Just talking to you releases all my pressure and makes everything feel right again. I can’t even fully describe the feelings I get when I talk with you—it's something beyond words, something that only my heart understands.</p> <p class="loveLetter">If there's one thing I've learned, it's that love isn't just about being together physically; it's about growing together, learning from each other, and supporting each other’s journeys.</p> <p class="loveLetter">On this anniversary, I want to renew my promise to you. I promise to continue growing, to be more understanding, and to love you with all my heart. Whether our paths converge again soon or take longer to meet, know that I am here, with an open heart, ready to listen, ready to support, and always ready to love you.  But now I've realized something—I don't know how it's happening, but I'm finding it difficult to talk with you openly. I'm scared that if I say something wrong, it might hurt you, and we could end up breaking up.</p><p class="loveLetter">You are my Sonu, the one who completes me, and no matter what the future holds, you will always have a special place in my heart.  I know that I can do anything if you are by my side, giving me strength and support. Here's to the love we've shared, the lessons we've learned, and the beautiful journey ahead.Please share your thoughts, your feelings, everything that’s in your heart for me. And lastly, I want to tell you, I really really really Love You❤️ and also "You are too good😁"</p>
             <p class="loveLetter">With all my love and respect,Your Pabitra</p>
         </div>
         <br> 
@@ -400,8 +418,15 @@ body {
             <textarea id="message"style="color: black; font-family: serif;" name="Message from Sujata about Our Future Plans" rows="4" placeholder="Your message about Our Future Plans..." required></textarea>
             <div class="h-captcha" data-captcha="true"></div>
             <button class="sendButton" type="submit">Send</button>
-           <input type="hidden" name="redirect" value="https://mini704.github.io/Feedback-Form/">
+           <input type="hidden" name="redirect" value="https://pabitra2635.github.io/form/">
     </section>
+    <footer>
+        <div class="foot-panel1">
+          <a href="#" style="color: white;">Back to Top</a>
+        </div>
+        <div class="foot">
+        </div>
+      </footer>
     <hr><h6 style="text-align:center; color: #472929;Font-family: 'Montserrat', sans-serif; font-weight: 600;">~:End of the Page:~</h6><hr>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script >
@@ -412,9 +437,7 @@ body {
         const form = document.getElementById('feedbackForm');
         
         form.addEventListener('submit', function(e) {
-        
             const hCaptcha = form.querySelector('textarea[name=h-captcha-response]').value;
-        
             if (!hCaptcha) {
                 e.preventDefault();
                 alert("Please fill out captcha field")
